@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
 import ImageList from './components/ImageList'
+import Heading1 from './components/Heading1'
 
 const data = [
   {title: 'Look at my Code', description: 'It is awesome 😉', imageURL: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&h=600&q=80'},
@@ -21,7 +22,7 @@ const data = [
 function App() {
   return (
     <div className="App container">
-      <h1>Fakestagram</h1>
+      <Heading1>Fakestagram</Heading1>
       <hr/>
       <ImageList data={data}/>
     </div>
